@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <keyboard>
+    <keybind key="W-Return">
+      <action name="Execute" command="foot" />
+    </keybind>
+
+    <keybind key="W-d">
+      <action name="Execute" command="wofi --show drun" />
+    </keybind>
+
+    <keybind key="W-q">
+      <action name="Close" />
+    </keybind>
+
+    <keybind key="W-f">
+      <action name="ToggleFullscreen" />
+    </keybind>
+  </keyboard>
+</labwc_config>
